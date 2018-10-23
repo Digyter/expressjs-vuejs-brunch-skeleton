@@ -1,6 +1,6 @@
-# brunch-vue-mdc
+# expressjs-vuejs-brunch-skeleton
 
-Simple brunch skeleton for web app using combined expressjs for server-side and vuejs for frontend-side
+Simple brunch skeleton for web app using combined expressjs for backend and vuejs for frontend.
 
 Follows vue [best practices](https://vuejs.org/v2/guide/single-file-components.html), and is uses a simple example from the [vue-cli generator](https://github.com/vuejs/vue-cli).
 
