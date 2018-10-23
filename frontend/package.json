@@ -3,7 +3,7 @@
   "description": "A Material Web Components Vue Skeleton for Brunch",
   "version": "0.0.1",
   "scripts": {
-    "start": "brunch watch --server",
+    "devstart": "brunch watch",
     "build": "brunch build --production"
   },
   "author": "Timothy Higinbottom",

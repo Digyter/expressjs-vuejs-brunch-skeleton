@@ -1,0 +1,41 @@
+{
+  "name": "expressjs-vuejs-brunch-skeleton",
+  "version": "1.0.0",
+  "description": "Simple skeleton for web app using combined expressjs for server-side and vuejs for frontend-side.",
+  "scripts": {
+    "devstart": "run-p runbackend runfrontend",
+    "start": "run-s buildfrontend runbackend",
+    "buildfrontend": "cd ./frontend && npm run build",
+    "runfrontend": "cd ./frontend && npm run devstart",
+    "runbackend": "cd backend && npm run devstart",
+    "postinstall": "npm-run-all -s installfrontend installbackend",
+    "installfrontend": "cd ./frontend && npm i",
+    "installbackend": "cd ./backend && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Angelo Libantino",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digyter/expressjs-vuejs-brunch-skeleton.git"
+  },
+  "keywords": [
+    "vue",
+    "express",
+    "expressjs",
+    "brunch",
+    "vue",
+    "vuejs",
+    "mdc",
+    "material-design",
+    "material-design-components"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Digyter/expressjs-vuejs-brunch-skeleton/issues"
+  },
+  "homepage": "https://github.com/Digyter/expressjs-vuejs-brunch-skeleton#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.3"
+  }
+}
